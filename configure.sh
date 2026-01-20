@@ -4,7 +4,7 @@ cat <<-EOF > /etc/xray/config.json
 {
     "inbounds": [
         {
-            "port": 3333,
+            "port": 8112,
             "protocol": "vmess",
             "settings": {
                 "clients": [
